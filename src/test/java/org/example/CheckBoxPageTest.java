@@ -13,6 +13,7 @@ public class CheckBoxPageTest extends MainTest{
         Configuration.pageLoadTimeout = 60000;
         Configuration.browserSize = "1920x1080";
     }
+
     @Test
     public void test1(){
         CheckBoxPage checkBoxPage = new CheckBoxPage();
@@ -21,7 +22,5 @@ public class CheckBoxPageTest extends MainTest{
                 .clickDownloadArrow()
                 .clickDocumentsArrow()
                 .clickDownloadArrow();
-
-        sleep(3000);
     }
 }

@@ -12,6 +12,7 @@ public class ModalDialogsPageTest extends MainTest{
         Configuration.pageLoadTimeout = 60000;
         Configuration.browserSize = "1920x1080";
     }
+
     @Test
     public void test1(){
         modalDialogsPage.open().
@@ -20,6 +21,7 @@ public class ModalDialogsPageTest extends MainTest{
         modalDialogsPage.clickLargeModalButton().verifyLargeModalIsVisible();
         modalDialogsPage.clickCloseLargeModalButton().verifyLargeModalIsNotVisible();
     }
+
     @Test
     public void test2(){
         modalDialogsPage.open().
@@ -28,6 +30,7 @@ public class ModalDialogsPageTest extends MainTest{
         modalDialogsPage.clickLargeModalButton().verifyLargeModalIsVisible();
         modalDialogsPage.clickCloseLargeModalWindow().verifyLargeModalIsNotVisible();
     }
+
     @Test
     public void test3(){
         modalDialogsPage.open().

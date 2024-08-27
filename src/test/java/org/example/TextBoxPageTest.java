@@ -13,6 +13,7 @@ public class TextBoxPageTest extends MainTest{
         Configuration.browserSize = "1920x1080";
         Configuration.browser = "Chrome";
     }
+
     @Test
     public void test1(){
         String test1 = textBoxPage.open().

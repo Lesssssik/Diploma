@@ -27,6 +27,7 @@ public class DatePickerPageTest extends MainTest{
 
         Assert.assertEquals(datePickerPage.getSelectedDate(), expectedDate);
     }
+
     @Test
     public void test2() {
         String day = "15";
@@ -39,7 +40,5 @@ public class DatePickerPageTest extends MainTest{
         String expectedDateTime = "April 15, 2024 11:15 PM";
 
         Assert.assertEquals(datePickerPage.getSelectedDateTime(), expectedDateTime);
-
-        sleep(3000);
     }
 }

@@ -5,7 +5,6 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-import static com.codeborne.selenide.Selenide.sleep;
 
 public class ProgressBarPageTest extends MainTest {
 
@@ -23,7 +22,5 @@ public class ProgressBarPageTest extends MainTest {
 
         progressBarPage.clickResetButton();
         Assert.assertEquals(progressBarPage.getProgressText(), "0%");
-
-        sleep(2000);
     }
 }

@@ -4,79 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82f4fc64-d304-4f39-958a-850ed545d6ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/constants/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AccordianPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AlertsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AutoCompletePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BrokenLinksPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BrowserWindowsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ButtonsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CheckBoxPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CheckboxPageObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DatePickerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DragabblePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DroppablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DynamicPropertiesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ElementsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FormsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FramesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LinksPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ModalDialogsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NestedFramesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProgressBarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RadioButtonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ResizablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SelectMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SelectablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SliderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SortablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TabsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TextBoxPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ToolTipsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UploadAndDownloadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WebTablesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UploadFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AccordianPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AlertsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AutoCompletePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BrokenLinksPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BrowserWindowsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ButtonsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CheckBoxPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DatePickerPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DragabblePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DroppablePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DynamicPropertiesPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FormsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FramesPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LinksPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MenuPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ModalDialogsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/NestedFramesPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ProgressBarPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RadioButtonPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ResizablePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SelectMenuPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SelectablePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SliderPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SortablePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TabsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TextBoxPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ToolTipsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/UploadAndDownloadPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WebTablesPageTest.java" afterDir="false" />
+    <list default="true" id="82f4fc64-d304-4f39-958a-850ed545d6ff" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Lesssssik"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Lesssssik/Diploma.git",
+    "accountId": "9ff78529-e741-4ade-bf81-5c6b72457e4b"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -104,104 +45,104 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.AccordianPageTest.AccordianButton.executor": "Run",
-    "TestNG.AccordianPageTest.test3.executor": "Run",
-    "TestNG.AccordianPageTest.test4.executor": "Run",
-    "TestNG.AutoCompletePageTest.executor": "Run",
-    "TestNG.AutoCompletePageTest.test1.executor": "Run",
-    "TestNG.AutoCompletePageTest.test2.executor": "Run",
-    "TestNG.AutoCompletePageTest.test3.executor": "Run",
-    "TestNG.BrokenLinksPageTest.testBrokenImage.executor": "Run",
-    "TestNG.BrokenLinksPageTest.testBrokenLink.executor": "Run",
-    "TestNG.BrokenLinksPageTest.testImages.executor": "Run",
-    "TestNG.BrokenLinksPageTest.testLinks.executor": "Run",
-    "TestNG.BrokenLinksPageTest.testLoadedImage.executor": "Run",
-    "TestNG.BrokenLinksPageTest.testValidLink.executor": "Run",
-    "TestNG.ButtonsPageTest.executor": "Run",
-    "TestNG.DatePickerPageTest.test1.executor": "Run",
-    "TestNG.DatePickerPageTest.test2.executor": "Run",
-    "TestNG.DragabblePageTest.testAxisRestrictedDrag.executor": "Run",
-    "TestNG.DragabblePageTest.testContainerRestrictedDrag.executor": "Run",
-    "TestNG.DragabblePageTest.testCursorStyleDrag.executor": "Run",
-    "TestNG.DragabblePageTest.testSimpleDrag.executor": "Run",
-    "TestNG.DroppablePageTest.executor": "Run",
-    "TestNG.DroppablePageTest.testAcceptableElement.executor": "Run",
-    "TestNG.DroppablePageTest.testPreventPropagation.executor": "Run",
-    "TestNG.DroppablePageTest.testPreventPropagationInnerGreedy.executor": "Run",
-    "TestNG.DroppablePageTest.testRevertDraggable.executor": "Run",
-    "TestNG.DroppablePageTest.testRevertDraggable2.executor": "Run",
-    "TestNG.DroppablePageTest.testSimpleDragAndDrop.executor": "Run",
-    "TestNG.DroppablePageTest.testSwitchToSimpleTab.executor": "Run",
-    "TestNG.FormsPageTest.chooseState.executor": "Run",
-    "TestNG.FormsPageTest.testingForm.executor": "Run",
-    "TestNG.FramesPageTest.executor": "Run",
-    "TestNG.FramesPageTest.test3.executor": "Run",
-    "TestNG.LinksPageTest.executor": "Run",
-    "TestNG.LinksPageTest.test1.executor": "Run",
-    "TestNG.LinksPageTest.test2.executor": "Run",
-    "TestNG.LinksPageTest.test3.executor": "Run",
-    "TestNG.LinksPageTest.testCreatedLink.executor": "Run",
-    "TestNG.LinksPageTest.testCreatedLink1.executor": "Run",
-    "TestNG.LinksPageTest.testNotFoundLink.executor": "Run",
-    "TestNG.MenuPageTest.test1.executor": "Run",
-    "TestNG.ModalDialogsPageTest.executor": "Run",
-    "TestNG.NestedFramesPageTest.executor": "Run",
-    "TestNG.NestedFramesPageTest.test2.executor": "Run",
-    "TestNG.ProgressBarPageTest.executor": "Run",
-    "TestNG.ProgressBarPageTest.test1.executor": "Run",
-    "TestNG.ProgressBarPageTest.test2.executor": "Run",
-    "TestNG.RadioButtonPageTest.executor": "Run",
-    "TestNG.ResizablePageTest.test1.executor": "Run",
-    "TestNG.ResizablePageTest.test2.executor": "Run",
-    "TestNG.SelectMenuPageTest.executor": "Run",
-    "TestNG.SelectMenuPageTest.testMultiSelectDropdown.executor": "Run",
-    "TestNG.SelectMenuPageTest.testOldStyleSelectMenu.executor": "Run",
-    "TestNG.SelectMenuPageTest.testSelectOneDropdown.executor": "Run",
-    "TestNG.SelectMenuPageTest.testSelectValueDropdown.executor": "Run",
-    "TestNG.SelectMenuPageTest.testStandardMultiSelect.executor": "Run",
-    "TestNG.SelectablePageTest.executor": "Run",
-    "TestNG.SelectablePageTest.test.executor": "Run",
-    "TestNG.SelectablePageTest.testSelectGridItem.executor": "Run",
-    "TestNG.SelectablePageTest.testSelectListItem.executor": "Run",
-    "TestNG.SliderPageTest.test1.executor": "Run",
-    "TestNG.SliderPageTest.testSlider.executor": "Run",
-    "TestNG.SliderPageTest.testSliderValue.executor": "Run",
-    "TestNG.SortablePageTest.testSortableItems.executor": "Run",
-    "TestNG.SortablePageTest.testSortableItems2.executor": "Run",
-    "TestNG.TabsPageTest.test1.executor": "Run",
-    "TestNG.TabsPageTest.test2.executor": "Run",
-    "TestNG.TabsPageTest.test3.executor": "Run",
-    "TestNG.TabsPageTest.test4.executor": "Run",
-    "TestNG.TextBoxPageTest.executor": "Run",
-    "TestNG.TextBoxPageTest.test1.executor": "Run",
-    "TestNG.ToolTipsPageTest.executor": "Run",
-    "TestNG.ToolTipsPageTest.test1.executor": "Run",
-    "TestNG.ToolTipsPageTest.test5.executor": "Run",
-    "TestNG.UploadAndDownloadPageTest.test1.executor": "Run",
-    "TestNG.UploadAndDownloadPageTest.test2.executor": "Run",
-    "TestNG.WebTablesPageTest.WebTablesTest.executor": "Run",
-    "TestNG.WebTablesPageTest.executor": "Run",
-    "TestNG.WebTablesPageTest.testAddNewRecord.executor": "Run",
-    "TestNG.WebTablesPageTest.testDeleteRecord.executor": "Run",
-    "TestNG.WebTablesPageTest.testEditRecord.executor": "Run",
-    "TestNG.WebTablesPageTest.testScrollThePage.executor": "Run",
-    "TestNG.WebTablesPageTest.testSearchRecord.executor": "Run",
-    "TestNG.WidgetsPageTest.AccordianButton.executor": "Run",
-    "TestNG.WidgetsPageTest.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.AccordianPageTest.AccordianButton.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AccordianPageTest.test3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AccordianPageTest.test4.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AutoCompletePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AutoCompletePageTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AutoCompletePageTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AutoCompletePageTest.test3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrokenLinksPageTest.testBrokenImage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrokenLinksPageTest.testBrokenLink.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrokenLinksPageTest.testImages.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrokenLinksPageTest.testLinks.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrokenLinksPageTest.testLoadedImage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrokenLinksPageTest.testValidLink.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ButtonsPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DatePickerPageTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DatePickerPageTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DragabblePageTest.testAxisRestrictedDrag.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DragabblePageTest.testContainerRestrictedDrag.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DragabblePageTest.testCursorStyleDrag.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DragabblePageTest.testSimpleDrag.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DroppablePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DroppablePageTest.testAcceptableElement.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DroppablePageTest.testPreventPropagation.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DroppablePageTest.testPreventPropagationInnerGreedy.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DroppablePageTest.testRevertDraggable.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DroppablePageTest.testRevertDraggable2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DroppablePageTest.testSimpleDragAndDrop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DroppablePageTest.testSwitchToSimpleTab.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FormsPageTest.chooseState.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FormsPageTest.testingForm.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FramesPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FramesPageTest.test3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LinksPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LinksPageTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LinksPageTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LinksPageTest.test3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LinksPageTest.testCreatedLink.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LinksPageTest.testCreatedLink1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LinksPageTest.testNotFoundLink.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MenuPageTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ModalDialogsPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NestedFramesPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NestedFramesPageTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProgressBarPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProgressBarPageTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProgressBarPageTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RadioButtonPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ResizablePageTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ResizablePageTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectMenuPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectMenuPageTest.testMultiSelectDropdown.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectMenuPageTest.testOldStyleSelectMenu.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectMenuPageTest.testSelectOneDropdown.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectMenuPageTest.testSelectValueDropdown.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectMenuPageTest.testStandardMultiSelect.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectablePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectablePageTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectablePageTest.testSelectGridItem.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectablePageTest.testSelectListItem.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SliderPageTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SliderPageTest.testSlider.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SliderPageTest.testSliderValue.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SortablePageTest.testSortableItems.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SortablePageTest.testSortableItems2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TabsPageTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TabsPageTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TabsPageTest.test3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TabsPageTest.test4.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TextBoxPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TextBoxPageTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ToolTipsPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ToolTipsPageTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ToolTipsPageTest.test5.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.UploadAndDownloadPageTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.UploadAndDownloadPageTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTablesPageTest.WebTablesTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTablesPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTablesPageTest.testAddNewRecord.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTablesPageTest.testDeleteRecord.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTablesPageTest.testEditRecord.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTablesPageTest.testScrollThePage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTablesPageTest.testSearchRecord.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WidgetsPageTest.AccordianButton.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WidgetsPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.SelectablePageTest.testSelectGridItem">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -323,6 +264,30 @@
       <option name="presentableId" value="Default" />
       <updated>1721107812387</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1724741119306</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724741119306</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

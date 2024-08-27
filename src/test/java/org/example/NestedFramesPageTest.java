@@ -12,6 +12,7 @@ public class NestedFramesPageTest extends MainTest{
         Configuration.pageLoadTimeout = 60000;
         Configuration.browserSize = "1920x1080";
     }
+
     @Test
     public void test1(){
 

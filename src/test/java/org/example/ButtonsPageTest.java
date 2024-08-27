@@ -12,6 +12,7 @@ public class ButtonsPageTest extends MainTest{
         Configuration.pageLoadTimeout = 60000;
         Configuration.browserSize = "1920x1080";
     }
+
     @Test
     public void ButtonTest(){
         buttonsPage.open().doubleClickButtonClick()
@@ -21,7 +22,5 @@ public class ButtonsPageTest extends MainTest{
         Assert.assertTrue(buttonsPage.getDoubleClickMessage().isDisplayed());
         Assert.assertTrue(buttonsPage.getRightClickMessage().isDisplayed());
         Assert.assertTrue(buttonsPage.getDynamicClickMessage().isDisplayed());
-
-                sleep(3000);
     }
 }

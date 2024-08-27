@@ -15,11 +15,13 @@ public class UploadAndDownloadPageTest extends MainTest{
         Configuration.pageLoadTimeout = 60000;
         Configuration.browserSize = "1920x1080";
     }
+
     @Test
     public void test1(){
         uploadAndDownloadPage.open()
                 .downloadAFile("src\\main\\resources", "sampleFile.jpeg");
     }
+
     @Test
     public void test2(){
         String fileName = "UploadFile.txt";
@@ -28,6 +30,5 @@ public class UploadAndDownloadPageTest extends MainTest{
                 .uploadFile(PATH_TO_RESOURCES+fileName);
 
         Assert.assertTrue(uploadAndDownloadPage.getFilePathP().getOwnText().matches("^C:.*"+fileName+"$"));
-
     }
 }

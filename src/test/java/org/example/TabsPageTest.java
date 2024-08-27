@@ -19,14 +19,17 @@ public class TabsPageTest extends MainTest{
     public void test1(){
         Assert.assertEquals(tabsPage.open().clickTabOrigin().getOriginContent().getText(), tabsPage.originText+tabsPage.originTextPart2);
     }
+
     @Test
     public void test2(){
         Assert.assertEquals(tabsPage.open().clickTabUse().getUseContent().getText(), tabsPage.useText);
     }
+
     @Test
     public void test3(){
         Assert.assertEquals(tabsPage.open().clickTabOrigin().clickTabWhat().getWhatContent().getText(), tabsPage.whatText);
     }
+
     @Test
     public void test4(){
         Assert.assertTrue(tabsPage.open().getTabMore().is(Condition.editable));

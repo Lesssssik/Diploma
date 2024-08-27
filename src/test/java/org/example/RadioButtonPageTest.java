@@ -14,6 +14,7 @@ public class RadioButtonPageTest extends MainTest{
         Configuration.pageLoadTimeout = 60000;
         Configuration.browserSize = "1920x1080";
     }
+
     @Test
     public void radioButtonTest(){
         radioButtonPage.open()
@@ -21,9 +22,8 @@ public class RadioButtonPageTest extends MainTest{
 
         Assert.assertTrue(radioButtonPage.getAnswer().isDisplayed());
         Assert.assertEquals(radioButtonPage.getAnswer().getText(), "You have selected Yes");
-
-        sleep (2000);
     }
+
     @Test
     public void radioButtonTest1(){
         radioButtonPage.open()
@@ -31,9 +31,8 @@ public class RadioButtonPageTest extends MainTest{
 
         Assert.assertTrue(radioButtonPage.getAnswer().isDisplayed());
         Assert.assertEquals(radioButtonPage.getAnswer().getText(), "You have selected Impressive");
-
-        sleep (2000);
     }
+
     @Test
     public void test2(){
         Assert.assertTrue(radioButtonPage.open().

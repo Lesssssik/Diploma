@@ -21,12 +21,14 @@ public class ToolTipsPageTest extends MainTest{
         String buttonToolTip = toolTipsPage.getToolTipText(toolTipsPage.getButton());
         Assert.assertEquals(buttonToolTip, "You hovered over the Button");
     }
+
     @Test
     public void test2(){
         toolTipsPage.open().hoverOverElement(toolTipsPage.getField());
         String fieldToolTip = toolTipsPage.getToolTipText(toolTipsPage.getField());
         Assert.assertEquals(fieldToolTip, "You hovered over the text field");
     }
+
     @Test
     public void test3() {
         toolTipsPage.open().hoverOverElement(toolTipsPage.getContraryLink());

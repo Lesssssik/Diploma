@@ -15,6 +15,7 @@ public class LinksPageTest extends MainTest{
         Configuration.browserSize = "1920x1080";
         Configuration.browser = "Chrome";
     }
+
     @Test
     public void testSimpleLink(){
         linksPage.open().clickSimpleLink().waitForBanner();
@@ -34,6 +35,7 @@ public class LinksPageTest extends MainTest{
         String text = linksPage.open().clickCreatedLink().getLinkResponseText().getText();
         Assert.assertEquals(text, "Link has responded with staus "+code+" and status text "+textStatus);
     }
+
     @Test
     public void testNoContentLink() {
         String code = "204";
@@ -41,6 +43,7 @@ public class LinksPageTest extends MainTest{
         String text = linksPage.open().clickNoContentLink().getLinkResponseText().getText();
         Assert.assertEquals(text, "Link has responded with staus "+code+" and status text "+textStatus);
     }
+
     @Test
     public void testMovedLink() {
         String code = "301";
@@ -48,6 +51,7 @@ public class LinksPageTest extends MainTest{
         String text = linksPage.open().clickMovedLink().getLinkResponseText().getText();
         Assert.assertEquals(text, "Link has responded with staus "+code+" and status text "+textStatus);
     }
+
     @Test
     public void testBadRequestLink() {
         String code = "400";
@@ -55,6 +59,7 @@ public class LinksPageTest extends MainTest{
         String text = linksPage.open().clickBadRequestLink().getLinkResponseText().getText();
         Assert.assertEquals(text, "Link has responded with staus "+code+" and status text "+textStatus);
     }
+
     @Test
     public void testUnauthorizedLink() {
         String code = "401";
@@ -62,6 +67,7 @@ public class LinksPageTest extends MainTest{
         String text = linksPage.open().clickUnauthorizedLink().getLinkResponseText().getText();
         Assert.assertEquals(text, "Link has responded with staus "+code+" and status text "+textStatus);
     }
+
     @Test
     public void testForbiddenLink() {
         String code = "403";
@@ -69,6 +75,7 @@ public class LinksPageTest extends MainTest{
         String text = linksPage.open().clickForbiddenLink().getLinkResponseText().getText();
         Assert.assertEquals(text, "Link has responded with staus "+code+" and status text "+textStatus);
     }
+
     @Test
     public void testNotFoundLink() {
         String code = "404";

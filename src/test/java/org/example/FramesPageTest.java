@@ -12,16 +12,19 @@ public class FramesPageTest extends MainTest{
         Configuration.pageLoadTimeout = 60000;
         Configuration.browserSize = "1920x1080";
     }
+
     @Test
     public void test1(){
         Assert.assertEquals(framesPage.open().
                 switchToFrame1().getPageH1(),"This is a sample page");
     }
+
     @Test
     public void test2(){
         Assert.assertEquals(framesPage.open().
                 switchToFrame2().getPageH1(), "This is a sample page");
     }
+
     @Test
     public void test3(){
 
