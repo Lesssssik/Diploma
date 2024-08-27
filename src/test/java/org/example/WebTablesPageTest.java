@@ -1,19 +1,8 @@
 package org.example;
-
-import com.codeborne.selenide.Configuration;
 import org.testng.Assert;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-import static com.codeborne.selenide.Selenide.sleep;
 
 public class WebTablesPageTest extends MainTest {
-
-    @BeforeSuite
-    public void config() {
-        Configuration.pageLoadTimeout = 60000;
-        Configuration.browserSize = "1920x1080";
-    }
-    
 
     @Test
     public void testAddNewRecord() {
@@ -49,8 +38,8 @@ public class WebTablesPageTest extends MainTest {
                 .chooseRows(rows)
                 .addNewRecord("Vasya", "Katin", "vasya@mail.ru", "25", "31000", "Police")
                 .addNewRecord("Maria", "Kekovna", "mashakek@mail.ru", "20", "40000", "Engineer")
-                .buttonNextClick()
                 .addNewRecord("Olga", "Tsareva", "tsarevao@mail.ru", "25", "90000", "Director")
+                .buttonNextClick()
                 .addNewRecord("John", "Miller", "jmiller@gmail.com", "30", "100000", "IT").inputPageJumpClick(page);
     }
 

@@ -4,8 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82f4fc64-d304-4f39-958a-850ed545d6ff" name="Changes" comment="first commit">
+    <list default="true" id="82f4fc64-d304-4f39-958a-850ed545d6ff" name="Changes" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AccordianPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AccordianPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BrowserWindowsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BrowserWindowsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TabsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TabsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AccordianPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AccordianPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AlertsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AlertsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AutoCompletePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AutoCompletePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BrokenLinksPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BrokenLinksPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BrowserWindowsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BrowserWindowsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ButtonsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ButtonsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CheckBoxPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CheckBoxPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DatePickerPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DatePickerPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DragabblePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DragabblePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DroppablePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DroppablePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DynamicPropertiesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DynamicPropertiesPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FormsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FormsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FramesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FramesPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LinksPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LinksPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MenuPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MenuPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ModalDialogsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ModalDialogsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/NestedFramesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/NestedFramesPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProgressBarPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ProgressBarPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RadioButtonPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/RadioButtonPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ResizablePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ResizablePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SelectMenuPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SelectMenuPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SelectablePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SelectablePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SliderPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SliderPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SortablePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SortablePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TabsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TabsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TextBoxPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TextBoxPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ToolTipsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ToolTipsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UploadAndDownloadPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/UploadAndDownloadPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WebTablesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WebTablesPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +56,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Lesssssik"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Lesssssik&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Lesssssik/Diploma.git",
-    "accountId": "9ff78529-e741-4ade-bf81-5c6b72457e4b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Lesssssik/Diploma.git&quot;,
+    &quot;accountId&quot;: &quot;9ff78529-e741-4ade-bf81-5c6b72457e4b&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -52,8 +85,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;TestNG.AccordianPageTest.AccordianButton.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AccordianPageTest.test2.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AccordianPageTest.test3.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AccordianPageTest.test4.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AccordianPageTest.testAccordion.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AutoCompletePageTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AutoCompletePageTest.test1.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AutoCompletePageTest.test2.executor&quot;: &quot;Run&quot;,
@@ -64,7 +99,10 @@
     &quot;TestNG.BrokenLinksPageTest.testLinks.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.BrokenLinksPageTest.testLoadedImage.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.BrokenLinksPageTest.testValidLink.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrowserWindowsPageTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrowserWindowsPageTest.test3.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.ButtonsPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Олеска/IdeaProjects/Diploma/testng.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DatePickerPageTest.test1.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DatePickerPageTest.test2.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DragabblePageTest.testAxisRestrictedDrag.executor&quot;: &quot;Run&quot;,
@@ -119,6 +157,7 @@
     &quot;TestNG.TabsPageTest.test2.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TabsPageTest.test3.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TabsPageTest.test4.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TabsPageTest.testTabs.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TextBoxPageTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TextBoxPageTest.test1.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.ToolTipsPageTest.executor&quot;: &quot;Run&quot;,
@@ -155,7 +194,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormsPageTest.chooseState" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Олеска/IdeaProjects/Diploma/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Diploma" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DroppablePageTest.testAcceptableElement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Diploma" />
       <extension name="coverage">
         <pattern>
@@ -163,9 +212,10 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FormsPageTest" />
-      <option name="METHOD_NAME" value="chooseState" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DroppablePageTest" />
+      <option name="METHOD_NAME" value="testAcceptableElement" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -173,7 +223,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormsPageTest.testingForm" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DroppablePageTest.testRevertDraggable2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Diploma" />
       <extension name="coverage">
         <pattern>
@@ -182,8 +232,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FormsPageTest" />
-      <option name="METHOD_NAME" value="testingForm" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DroppablePageTest" />
+      <option name="METHOD_NAME" value="testRevertDraggable2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgressBarPageTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Diploma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ProgressBarPageTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -209,49 +277,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectablePageTest.testSelectListItem" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Diploma" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SelectablePageTest" />
-      <option name="METHOD_NAME" value="testSelectListItem" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebTablesPageTest.testScrollThePage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Diploma" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WebTablesPageTest" />
-      <option name="METHOD_NAME" value="testScrollThePage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.SelectablePageTest.testSelectGridItem" />
-        <item itemvalue="TestNG.SelectablePageTest.testSelectListItem" />
-        <item itemvalue="TestNG.FormsPageTest.testingForm" />
-        <item itemvalue="TestNG.FormsPageTest.chooseState" />
-        <item itemvalue="TestNG.WebTablesPageTest.testScrollThePage" />
+        <item itemvalue="TestNG.ProgressBarPageTest.test1" />
+        <item itemvalue="TestNG.C:/Users/Олеска/IdeaProjects/Diploma/testng.xml" />
+        <item itemvalue="TestNG.DroppablePageTest.testAcceptableElement" />
+        <item itemvalue="TestNG.DroppablePageTest.testRevertDraggable2" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724741119306</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <option name="closed" value="true" />
+      <created>1724742727278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724742727278</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +328,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>

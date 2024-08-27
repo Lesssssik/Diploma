@@ -1,9 +1,12 @@
 package org.example;
 
+import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import lombok.Getter;
 import org.openqa.selenium.By;
+
+import java.time.Duration;
 
 import static com.codeborne.selenide.Selenide.*;
 
@@ -14,7 +17,7 @@ public class BrowserWindowsPage extends MainPage{
     private final SelenideElement newWindow = $(By.id("windowButton"));
     private final SelenideElement newWindowMessage = $(By.id("messageWindowButton"));
     private final SelenideElement h1 = $(By.id("sampleHeading"));
-    private final SelenideElement body = $("body");
+    private final SelenideElement body = $("html");
 
     public BrowserWindowsPage open(){
         Selenide.open("https://demoqa.com/browser-windows");

@@ -1,5 +1,10 @@
 package org.example;
 
+import com.codeborne.selenide.Configuration;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+
 public class MainTest {
 
     MainPage mainPage = new MainPage();
@@ -34,4 +39,10 @@ public class MainTest {
     UploadAndDownloadPage uploadAndDownloadPage = new UploadAndDownloadPage();
     WebTablesPage webTablesPage = new WebTablesPage();
 
+    @BeforeSuite
+    @Parameters({"pageLoadTimeout", "browserSize"})
+    public void config(@Optional("80000")long pageLoadTimeout, @Optional("1920x1080") String browserSize){
+        Configuration.pageLoadTimeout = pageLoadTimeout;
+        Configuration.browserSize = browserSize;
+    }
 }

@@ -1,18 +1,10 @@
 package org.example;
-import com.codeborne.selenide.Configuration;
 import org.testng.Assert;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import java.util.Arrays;
-import static com.codeborne.selenide.Selenide.sleep;
 
 public class AutoCompletePageTest extends MainTest{
 
-    @BeforeSuite
-    public void config(){
-        Configuration.pageLoadTimeout = 60000;
-        Configuration.browserSize = "1920x1080";
-    }
     @Test
     public void test1(){
         String option = "Red";
