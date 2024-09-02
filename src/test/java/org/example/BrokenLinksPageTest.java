@@ -2,6 +2,7 @@ package org.example;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
 public class BrokenLinksPageTest extends MainTest{
 
     @Test
@@ -17,6 +18,7 @@ public class BrokenLinksPageTest extends MainTest{
     @Test
     public void testValidLink() {
         Assert.assertTrue(brokenLinksPage.open().isLinkWorking(brokenLinksPage.getValidLink()));
+        browserWindowsPage.closeTheCurrentWindow();
     }
 
     @Test

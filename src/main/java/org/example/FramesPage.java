@@ -35,6 +35,4 @@ public class FramesPage extends MainPage{
         switchTo().defaultContent();
         return this;
     }
-
-
 }

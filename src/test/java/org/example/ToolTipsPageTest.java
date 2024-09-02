@@ -2,8 +2,8 @@ package org.example;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ToolTipsPageTest extends MainTest{
 
+public class ToolTipsPageTest extends MainTest{
 
     @Test
     public void test1() {

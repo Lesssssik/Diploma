@@ -1,9 +1,12 @@
 package org.example;
 
 import com.codeborne.selenide.Configuration;
+import org.testng.ITestContext;
+import org.testng.ITestNGMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 public class MainTest {
 
@@ -41,8 +44,12 @@ public class MainTest {
 
     @BeforeSuite
     @Parameters({"pageLoadTimeout", "browserSize"})
-    public void config(@Optional("80000")long pageLoadTimeout, @Optional("1920x1080") String browserSize){
+    public void config(@Optional("80000")long pageLoadTimeout, @Optional("1920x1080") String browserSize, ITestContext context){
         Configuration.pageLoadTimeout = pageLoadTimeout;
         Configuration.browserSize = browserSize;
+
+        for (ITestNGMethod method: context.getAllTestMethods()){
+            method.setRetryAnalyzerClass(RetryAnalyzer.class);
+        }
     }
 }

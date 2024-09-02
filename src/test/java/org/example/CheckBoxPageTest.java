@@ -1,6 +1,7 @@
 package org.example;
 import org.testng.annotations.Test;
 
+
 public class CheckBoxPageTest extends MainTest{
 
     @Test

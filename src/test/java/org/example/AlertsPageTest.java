@@ -14,6 +14,7 @@ public class AlertsPageTest extends MainTest{
 
         Assert.assertEquals(alertText, "You clicked a button");
     }
+
     @Test
     public void test2(){
         String alertText = alertsPage.open().
@@ -24,6 +25,7 @@ public class AlertsPageTest extends MainTest{
 
         Assert.assertEquals(alertText, "This alert appeared after 5 seconds");
     }
+
     @Test
     public void test3(){
         String alertText = alertsPage.open().
@@ -33,9 +35,10 @@ public class AlertsPageTest extends MainTest{
         Assert.assertEquals(alertText, "Do you confirm action?");
         Assert.assertEquals(alertsPage.getConfirmResultText().getText(), "You selected Ok");
     }
+
     @Test
     public void test4(){
-        String promptText = "lolkek";
+        String promptText = "MyName";
         String alertText = alertsPage.open().
                 clickPromptButton().
                 getAlertText();

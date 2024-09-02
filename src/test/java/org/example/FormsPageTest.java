@@ -3,6 +3,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Condition.visible;
 
+
 public class FormsPageTest extends MainTest {
 
     @Test

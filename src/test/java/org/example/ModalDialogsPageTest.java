@@ -2,6 +2,7 @@ package org.example;
 import com.codeborne.selenide.Condition;
 import org.testng.annotations.Test;
 
+
 public class ModalDialogsPageTest extends MainTest{
 
     @Test

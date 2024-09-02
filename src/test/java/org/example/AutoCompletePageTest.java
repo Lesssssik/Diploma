@@ -3,6 +3,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.util.Arrays;
 
+
 public class AutoCompletePageTest extends MainTest{
 
     @Test
@@ -15,12 +16,14 @@ public class AutoCompletePageTest extends MainTest{
         System.out.println(option);
         System.out.println(actualText);
     }
+
     @Test
     public void test2(){
         String [] expectedOptions  = new String[]{"Red", "Blue", "Black"};
         autoCompletePage.open().selectOptionFromMultipleInput(expectedOptions);
         autoCompletePage.ClickAutocompleteClearButton();
     }
+
     @Test
     public void test3(){
         String [] expectedOptions  = new String[]{"Red", "Blue", "Black"};

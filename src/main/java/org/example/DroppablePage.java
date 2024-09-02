@@ -5,6 +5,8 @@ import com.codeborne.selenide.SelenideElement;
 import lombok.Getter;
 import org.openqa.selenium.By;
 
+import java.time.Duration;
+
 import static com.codeborne.selenide.Selenide.*;
 
 @Getter
@@ -63,8 +65,9 @@ public class DroppablePage extends MainPage {
         return droppable.getText();
     }
 
-    public void dragAcceptable() {
+    public DroppablePage dragAcceptable() {
         actions().dragAndDrop(acceptableDraggable, droppableAccept).build().perform();
+        return this;
     }
 
     public void dragNotAcceptable() {

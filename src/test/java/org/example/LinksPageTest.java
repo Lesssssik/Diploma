@@ -3,18 +3,21 @@ import com.codeborne.selenide.Selenide;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
 public class LinksPageTest extends MainTest{
 
     @Test
     public void testSimpleLink(){
         linksPage.open().clickSimpleLink().waitForBanner();
         Assert.assertEquals(Selenide.title(), "DEMOQA");
+        linksPage.closeTheCurrentWindow();
     }
 
     @Test
     public void testDynamicLink(){
         linksPage.open().clickDynamicLink().waitForBanner();
         Assert.assertEquals(Selenide.title(), "DEMOQA");
+        linksPage.closeTheCurrentWindow();
     }
 
     @Test
@@ -56,6 +59,7 @@ public class LinksPageTest extends MainTest{
         String text = linksPage.open().clickUnauthorizedLink().getLinkResponseText().getText();
         Assert.assertEquals(text, "Link has responded with staus "+code+" and status text "+textStatus);
     }
+
 
     @Test
     public void testForbiddenLink() {

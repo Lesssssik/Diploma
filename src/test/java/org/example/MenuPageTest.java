@@ -2,7 +2,6 @@ package org.example;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-
 public class MenuPageTest extends MainTest{
 
     @Test

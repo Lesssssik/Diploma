@@ -6,8 +6,7 @@ import lombok.Getter;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.switchTo;
+import static com.codeborne.selenide.Selenide.*;
 
 @Getter
 public class LinksPage extends MainPage{
@@ -75,5 +74,8 @@ public class LinksPage extends MainPage{
         bannerImage.shouldBe(visible);
     }
 
+    public void closeTheCurrentWindow(){
+        closeWindow();
+    }
 }
 

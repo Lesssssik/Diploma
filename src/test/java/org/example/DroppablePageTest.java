@@ -1,6 +1,10 @@
 package org.example;
+import com.codeborne.selenide.Condition;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
+
 
 public class DroppablePageTest extends MainTest{
 
